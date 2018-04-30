@@ -22,4 +22,4 @@
 
 11- ¿Vas a hacer una página web válida y con hoja de estilo? Si
 
-12- Comenta cualquier cosa que crees que puedes hacerte conseguir un 10 en el proyecto:
+12- Comenta cualquier cosa que crees que puedes hacerte conseguir un 10 en el proyecto: Utilizar 3 API's usuando varios metodos
