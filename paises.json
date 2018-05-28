@@ -1,0 +1,490 @@
+[
+	{
+		"nombre": "Alemania",
+		" name": "Germany",
+		" nom": "Allemagne",
+		" iso2": "DE",
+		" iso3": "DEU",
+		" phone_code": "49",
+		"nationality": "German"
+	},
+	{
+		"nombre": "Argentina",
+		" name": "Argentina",
+		" nom": "Argentine",
+		" iso2": "AR",
+		" iso3": "ARG",
+		" phone_code": "54"
+	},
+	{
+		"nombre": "Australia",
+		" name": "Australia",
+		" nom": "Australie",
+		" iso2": "AU",
+		" iso3": "AUS",
+		" phone_code": "61",
+		"nationality": "Australian"
+	},
+	{
+		"nombre": "Austria",
+		" name": "Austria",
+		" nom": "Autriche",
+		" iso2": "AT",
+		" iso3": "AUT",
+		" phone_code": "43"
+	},
+	{
+		"nombre": "Azerbayán",
+		" name": "Azerbaijan",
+		" nom": "L'Azerbaïdjan",
+		" iso2": "AZ",
+		" iso3": "AZE",
+		" phone_code": "994"
+	},
+	{
+		"nombre": "Bélgica",
+		" name": "Belgium",
+		" nom": "Belgique",
+		" iso2": "BE",
+		" iso3": "BEL",
+		" phone_code": "32",
+		"nationality": "Belgian"
+	},
+	{
+		"nombre": "Bahrein",
+		" name": "Bahrain",
+		" nom": "Bahreïn",
+		" iso2": "BH",
+		" iso3": "BHR",
+		" phone_code": "973"
+	},
+	{
+		"nombre": "Brasil",
+		" name": "Brazil",
+		" nom": "Brésil",
+		" iso2": "BR",
+		" iso3": "BRA",
+		" phone_code": "55"
+	},
+	{
+		"nombre": "Canadá",
+		" name": "Canada",
+		" nom": "Canada",
+		" iso2": "CA",
+		" iso3": "CAN",
+		" phone_code": "1",
+		"nationality": "Canadian"
+
+	},
+	{
+		"nombre": "Chile",
+		" name": "Chile",
+		" nom": "Chili",
+		" iso2": "CL",
+		" iso3": "CHL",
+		" phone_code": "56"
+	},
+	{
+		"nombre": "China",
+		" name": "China",
+		" nom": "Chine",
+		" iso2": "CN",
+		" iso3": "CHN",
+		" phone_code": "86"
+	},
+	{
+		"nombre": "Colombia",
+		" name": "Colombia",
+		" nom": "Colombie",
+		" iso2": "CO",
+		" iso3": "COL",
+		" phone_code": "57"
+	},
+	{
+		"nombre": "Corea del Norte",
+		" name": "North Korea",
+		" nom": "Corée du Nord",
+		" iso2": "KP",
+		" iso3": "PRK",
+		" phone_code": "850"
+	},
+	{
+		"nombre": "Corea del Sur",
+		" name": "South Korea",
+		" nom": "Corée du Sud",
+		" iso2": "KR",
+		" iso3": "KOR",
+		" phone_code": "82"
+	},
+	{
+		"nombre": "Dinamarca",
+		" name": "Denmark",
+		" nom": "Danemark",
+		" iso2": "DK",
+		" iso3": "DNK",
+		" phone_code": "45",
+		"nationality": "Danish"
+	},
+	{
+		"nombre": "Ecuador",
+		" name": "Ecuador",
+		" nom": "Equateur",
+		" iso2": "EC",
+		" iso3": "ECU",
+		" phone_code": "593"
+	},
+	{
+		"nombre": "Emiratos Árabes Unidos",
+		" name": "UAE",
+		" nom": "Emirats Arabes Unis",
+		" iso2": "AE",
+		" iso3": "ARE",
+		" phone_code": "971"
+	},
+	{
+		"nombre": "España",
+		" name": "Spain",
+		" nom": "Espagne",
+		" iso2": "ES",
+		" iso3": "ESP",
+		" phone_code": "34",
+		"nationality": "Spanish"
+	},
+	{
+		"nombre": "Estados Unidos de América",
+		" name": "USA",
+		" nom": "États-Unis d'Amérique",
+		" iso2": "US",
+		" iso3": "USA",
+		" phone_code": "1"
+	},
+	{
+		"nombre": "Finlandia",
+		" name": "Finland",
+		" nom": "Finlande",
+		" iso2": "FI",
+		" iso3": "FIN",
+		" phone_code": "358",
+		"nationality": "Finnish"
+	},
+	{
+		"nombre": "Francia",
+		" name": "France",
+		" nom": "France",
+		" iso2": "FR",
+		" iso3": "FRA",
+		" phone_code": "33",
+		"nationality": "French"
+	},
+	{
+		"nombre": "Grecia",
+		" name": "Greece",
+		" nom": "Grèce",
+		" iso2": "GR",
+		" iso3": "GRC",
+		" phone_code": "30"
+	},
+	{
+		"nombre": "Hungría",
+		" name": "Hungary",
+		" nom": "Hongrie",
+		" iso2": "HU",
+		" iso3": "HUN",
+		" phone_code": "36"
+	},
+	{
+		"nombre": "India",
+		" name": "India",
+		" nom": "Inde",
+		" iso2": "IN",
+		" iso3": "IND",
+		" phone_code": "91"
+	},
+	{
+		"nombre": "Indonesia",
+		" name": "Indonesia",
+		" nom": "Indonésie",
+		" iso2": "ID",
+		" iso3": "IDN",
+		" phone_code": "62"
+	},
+	{
+		"nombre": "Irlanda",
+		" name": "Ireland",
+		" nom": "Irlande",
+		" iso2": "IE",
+		" iso3": "IRL",
+		" phone_code": "353"
+	},
+	{
+		"nombre": "Islandia",
+		" name": "Iceland",
+		" nom": "Islande",
+		" iso2": "IS",
+		" iso3": "ISL",
+		" phone_code": "354"
+	},
+	{
+		"nombre": "Islas Feroe",
+		" name": "Faroe Islands",
+		" nom": "Iles Féro",
+		" iso2": "FO",
+		" iso3": "FRO",
+		" phone_code": "298"
+	},
+	{
+		"nombre": "Italia",
+		" name": "Italy",
+		" nom": "Italie",
+		" iso2": "IT",
+		" iso3": "ITA",
+		" phone_code": "39"
+	},
+	{
+		"nombre": "Jamaica",
+		" name": "Jamaica",
+		" nom": "Jamaïque",
+		" iso2": "JM",
+		" iso3": "JAM",
+		" phone_code": "1 876"
+	},
+	{
+		"nombre": "Japón",
+		" name": "Japan",
+		" nom": "Japon",
+		" iso2": "JP",
+		" iso3": "JPN",
+		" phone_code": "81"
+	},
+	{
+		"nombre": "México",
+		" name": "Mexico",
+		" nom": "Mexique",
+		" iso2": "MX",
+		" iso3": "MEX",
+		" phone_code": "52",
+		"nationality": "Mexican"
+	},
+	{
+		"nombre": "Mónaco",
+		" name": "Monaco",
+		" nom": "Monaco",
+		" iso2": "MC",
+		" iso3": "MCO",
+		" phone_code": "377",
+		"nationality": "Monegasque"
+	},
+	{
+		"nombre": "Malasia",
+		" name": "Malaysia",
+		" nom": "Malaisie",
+		" iso2": "MY",
+		" iso3": "MYS",
+		" phone_code": "60"
+	},
+	{
+		"nombre": "Marruecos",
+		" name": "Morocco",
+		" nom": "Maroc",
+		" iso2": "MA",
+		" iso3": "MAR",
+		" phone_code": "212"
+	},
+	{
+		"nombre": "Noruega",
+		" name": "Norway",
+		" nom": "Norvège",
+		" iso2": "NO",
+		" iso3": "NOR",
+		" phone_code": "47"
+	},
+	{
+		"nombre": "Nueva Zelanda",
+		" name": "New Zealand",
+		" nom": "Nouvelle-Zélande",
+		" iso2": "NZ",
+		" iso3": "NZL",
+		" phone_code": "64",
+		"nationality": "New Zealander"
+	},
+	{
+		"nombre": "Países Bajos",
+		" name": "Netherlands",
+		" nom": "Pays-Bas",
+		" iso2": "NL",
+		" iso3": "NLD",
+		" phone_code": "31",
+		"nationality": "Dutch"
+	},
+	{
+		"nombre": "Paraguay",
+		" name": "Paraguay",
+		" nom": "Paraguay",
+		" iso2": "PY",
+		" iso3": "PRY",
+		" phone_code": "595"
+	},
+	{
+		"nombre": "Perú",
+		" name": "Peru",
+		" nom": "Pérou",
+		" iso2": "PE",
+		" iso3": "PER",
+		" phone_code": "51"
+	},
+	{
+		"nombre": "Polonia",
+		" name": "Poland",
+		" nom": "Pologne",
+		" iso2": "PL",
+		" iso3": "POL",
+		" phone_code": "48"
+	},
+	{
+		"nombre": "Portugal",
+		" name": "Portugal",
+		" nom": "Portugal",
+		" iso2": "PT",
+		" iso3": "PRT",
+		" phone_code": "351"
+	},
+	{
+		"nombre": "Qatar",
+		" name": "Qatar",
+		" nom": "Qatar",
+		" iso2": "QA",
+		" iso3": "QAT",
+		" phone_code": "974"
+	},
+	{
+		"nombre": "Reino Unido",
+		" name": "UK",
+		" nom": "Royaume-Uni",
+		" iso2": "GB",
+		" iso3": "GBR",
+		" phone_code": "44",
+		"nationality": "British"
+	},
+	{
+		"nombre": "República Checa",
+		" name": "Czech Republic",
+		" nom": "République Tchèque",
+		" iso2": "CZ",
+		" iso3": "CZE",
+		" phone_code": "420"
+	},
+	{
+		"nombre": "República Dominicana",
+		" name": "Dominican Republic",
+		" nom": "République Dominicaine",
+		" iso2": "DO",
+		" iso3": "DOM",
+		" phone_code": "1 809"
+	},
+	{
+		"nombre": "Rusia",
+		" name": "Russia",
+		" nom": "La Russie",
+		" iso2": "RU",
+		" iso3": "RUS",
+		" phone_code": "7",
+		"nationality": "Russian"
+	},
+	{
+		"nombre": "San Marino",
+		" name": "San Marino",
+		" nom": "San Marino",
+		" iso2": "SM",
+		" iso3": "SMR",
+		" phone_code": "378"
+	},
+	{
+		"nombre": "Serbia",
+		" name": "Serbia",
+		" nom": "Serbie",
+		" iso2": "RS",
+		" iso3": "SRB",
+		" phone_code": "381"
+	},
+	{
+		"nombre": "Singapur",
+		" name": "Singapore",
+		" nom": "Singapour",
+		" iso2": "SG",
+		" iso3": "SGP",
+		" phone_code": "65"
+	},
+	{
+		"nombre": "Sudáfrica",
+		" name": "South Africa",
+		" nom": "Afrique du Sud",
+		" iso2": "ZA",
+		" iso3": "ZAF",
+		" phone_code": "27"
+	},
+	{
+		"nombre": "Suecia",
+		" name": "Sweden",
+		" nom": "Suède",
+		" iso2": "SE",
+		" iso3": "SWE",
+		" phone_code": "46",
+		"nationality": "Swedish"
+	},
+	{
+		"nombre": "Suiza",
+		" name": "Switzerland",
+		" nom": "Suisse",
+		" iso2": "CH",
+		" iso3": "CHE",
+		" phone_code": "41"
+	},
+	{
+		"nombre": "Swazilandia",
+		" name": "Swaziland",
+		" nom": "Swaziland",
+		" iso2": "SZ",
+		" iso3": "SWZ",
+		" phone_code": "268"
+	},
+	{
+		"nombre": "Tailandia",
+		" name": "Thailand",
+		" nom": "Thaïlande",
+		" iso2": "TH",
+		" iso3": "THA",
+		" phone_code": "66"
+	},
+	{
+		"nombre": "Turquía",
+		" name": "Turkey",
+		" nom": "Turquie",
+		" iso2": "TR",
+		" iso3": "TUR",
+		" phone_code": "90"
+	},
+	{
+		"nombre": "Ucrania",
+		" name": "Ukraine",
+		" nom": "L'Ukraine",
+		" iso2": "UA",
+		" iso3": "UKR",
+		" phone_code": "380"
+	},
+	{
+		"nombre": "Uruguay",
+		" name": "Uruguay",
+		" nom": "Uruguay",
+		" iso2": "UY",
+		" iso3": "URY",
+		" phone_code": "598"
+	},
+	{
+		"nombre": "Venezuela",
+		" name": "Venezuela",
+		" nom": "Venezuela",
+		" iso2": "VE",
+		" iso3": "VEN",
+		" phone_code": "58"
+	}
+]

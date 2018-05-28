@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Wiki{% endblock %}
+{% block content %}
+<form action="/wiki" method="post">
+	<div>
+		<fieldset>
+			<legend>Introduzca el año de la temporada que quiera obtener la clasificacion del mundial. La informacion que se mostrara empieza en 1950 hasta hoy </legend>
+			<br>
+				<p>Año de la temporada: <input type="text" name="año" value="" /></p>
+			<br/>
+		</fieldset>
+		<input type="submit" value="Enviar">
+	</div>
+</form>
+
+	{% if resultados %}
+		<div>
+			<h2>Asi esta el Mundial de pilotos {{año}}...</h2>
+				<table class="wikitable" border="2">
+					<tr>
+						<th><em>Posicion</em></th>
+						<th><em>Piloto</em></th>
+						<th><em>Dorsal</em></th>
+						<th><em>Abreviatura</em></th>
+						<th><em>Escuderia</em></th>
+						<th><em>Victorias</em></th>
+						<th><em>Puntos</em></th>
+					</tr>
+			
+				{% for p in resultados["DriverStandings"] %}
+					<tr>
+						<td align="center">{{p["position"]}}</td>
+						<td align="center">{{p["Driver"]["familyName"]}}, {{p["Driver"]["givenName"]}}</td>
+						<td align="center">{{p["Driver"]["permanentNumber"]}}</td>
+						<td align="center">{{p["Driver"]["code"]}}</td>
+						<td align="center">{{p["Constructors"][0]["name"]}}</td>
+						<td align="center">{{p["wins"]}}</td>
+						<td align="center">{{p["points"]}}</td>
+					</tr>
+				{% endfor %}
+			</table>
+	{%endif%}	
+		</div>
+{% endblock %}

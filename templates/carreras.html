@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Ultima carrera{% endblock %}
+{% block content %}
+		<div>
+			<h2>Informacion de la ultima carrera</h2>
+		{% for k in career %}
+			<p><strong>Gran Premio:</strong> {{k["raceName"]}}</p>
+			<p><strong>Circuito:</strong> {{k["Circuit"]["circuitName"]}}</p>
+			<p><strong>Ubicacion:</strong> {{k["Circuit"]["Location"]["locality"]}}, {{k["Circuit"]["Location"]["country"]}}</p>
+		{% endfor %}
+		</div>
+		<table class="wikitable" border="1">
+		<tr>
+			<th><em>Nombre</em></th>
+			<th><em>Dorsal</em></th>
+			<th><em>Piloto</em></th>
+			<th><em>Vueltas</em></th>
+			<th><em>Abreviatura</em></th>
+			<th><em>Escuderia</em></th>
+			<th><em>Estado</em></th>
+			<th><em>Posicion Inicial</em></th>
+			<th><em>Vuelta mas rapida</em></th>
+			<th><em>Velocidad Media</em></th>
+		</tr>
+		{% for t in career[0]["Results"]%}
+			<tr>
+				<td align="center">{{t["position"]}}</td>
+				<td align="center">{{t["number"]}}</td>
+				<td align="center"> {{t["Driver"]["familyName"]}}, {{t["Driver"]["givenName"]}} </td>
+				<td align="center">{{t["laps"]}}</td>
+				<td align="center">{{t["Driver"]["code"]}}</td>
+				<td align="center">{{t["Constructor"]["name"]}}</td>
+				<td align="center">{{t["status"]}}</td>
+				<td align="center">{{t["grid"]}}</td>
+			{% if "FastestLap" in t %}
+				<td align="center">{{t["FastestLap"]["Time"]["time"]}}</td>
+				<td align="center">{{t["FastestLap"]["AverageSpeed"]["speed"]}} {{t["FastestLap"]["AverageSpeed"]["units"]}}</td>
+			{% else %}
+				<td align="center">No tiene vuelta</td>
+			{% endif %}
+			</tr>
+		{% endfor %}
+	</table>
+{% endblock %}

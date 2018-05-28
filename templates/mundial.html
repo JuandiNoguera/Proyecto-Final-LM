@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Mundial{% endblock %}
+{% block content %}
+		<div>
+			<h2>Asi esta el Mundial de pilotos 2018...</h2>
+		</div>
+		<table class="wikitable" border="2" >
+		<tr>
+			<th><em>Posicion</em></th>
+			<th><em>Piloto</em></th>
+			<th><em>Dorsal</em></th>
+			<th><em>Abreviatura</em></th>
+			<th><em>Escuderia</em></th>
+			<th><em>Victorias</em></th>
+			<th><em>Puntos</em></th>
+		</tr>
+		{% for j in mundials["DriverStandings"] %}
+			<tr>
+				<td align="center">{{j["position"]}}</td>
+				<td align="center">{{j["Driver"]["familyName"]}}, {{j["Driver"]["givenName"]}}</td>
+				<td align="center">{{j["Driver"]["permanentNumber"]}}</td>
+				<td align="center">{{j["Driver"]["code"]}}</td>
+				<td align="center">{{j["Constructors"][0]["name"]}}</td>
+				<td align="center">{{j["wins"]}}</td>
+				<td align="center">{{j["points"]}}</td>
+			</tr>
+		{% endfor %}
+		</table>
+		<div>
+			<h2>Asi esta el Mundial de Escuderias...</h2>
+		</div>
+		<table class="wikitable" border="2" >
+		<tr>
+			<th><em>Posicion</em></th>
+			<th><em>Escuderia</em></th>
+			<th><em>Nacionalidad</em></th>
+			<th><em>Victorias</em></th>
+			<th><em>Puntos</em></th>
+		</tr>
+		{% for l in constructors["ConstructorStandings"] %}
+			<tr>
+				<td align="center">{{l["position"]}}</td>
+				<td align="center">{{l["Constructor"]["name"]}}</td>
+				<td align="center">{{l["Constructor"]["nationality"]}}</td>
+				<td align="center">{{l["wins"]}}</td>
+				<td align="center">{{l["points"]}}</td>
+			</tr>
+		{% endfor %}
+		</table>
+{% endblock %}

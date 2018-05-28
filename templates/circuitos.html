@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Circuitos{% endblock %}
+{% block content %}
+	<div>
+		<h2>Informacion de los Circuitos</h2>
+	</div>
+	<div>
+		{% for i in circuit %}
+			<li><a href="/circuitos/{{i["circuitId"]}}">{{i["circuitName"]}}</a></li>
+		{% endfor %}
+	</div>
+{% endblock %}

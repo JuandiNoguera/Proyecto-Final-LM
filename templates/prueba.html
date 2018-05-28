@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Prueba{% endblock %}
+{% block content %}
+		<div>
+			<h2>Informacion de los Pilotos</h2>
+		</div>
+		<table class="wikitable" border="1">
+		<tr>
+			<th><em>Nombre</em></th>
+			<th><em>Apellidos</em></th>
+			<th><em>Dorsal</em></th>
+			<th><em>Fecha de Nacimiento</em></th>
+			<th><em>Abreviatura</em></th>
+			<th><em>Nacionalidad</em></th>
+			<th><em>Mas info</em></th>
+		</tr>
+		{% for m in drivers%}
+			<tr>
+				<td align="center">{{m["givenName"]}}</td>
+				<td align="center">{{m["familyName"]}}</td>
+				<td align="center">{{m["permanentNumber"]}}</td>
+				<td align="center">{{m["dateOfBirth"]}}</td>
+				<td align="center">{{m["code"]}}</td>
+				<td align="center">{{m["nationality"]}}</td>
+				<td align="center"><a href="{{m["url"]}}">Aqui</a></td>
+			</tr>
+		{% endfor %}
+	</table>
+{% endblock %}

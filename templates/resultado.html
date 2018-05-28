@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Datos del circuito{% endblock %}
+{% block content %}
+	<ul>
+		{% for i in date %}
+			<li>Bandera: </li>
+			<img src="http://www.countryflags.io/{{codigo}}/flat/64.png">
+			<li>Nombre GP: {{i["circuitName"]}}</li>
+			<li>Localizacion: {{i["Location"]["locality"]}} , {{i["Location"]["country"]}}</li>
+			<!DOCTYPE html>
+				<html>
+				  <head>
+				    <style>
+				       #map {
+				        height: 400px;
+				        width: 200%;
+				       }
+				    </style>
+				  </head>
+				  <body>
+				    <h3>Ubicacion</h3>
+				    <div id="map"></div>
+				    <script>
+				      function initMap() {
+				        var uluru = {lat: {{i["Location"]["lat"]}}, lng: {{i["Location"]["long"]}}};
+				        var map = new google.maps.Map(document.getElementById('map'), {
+				          zoom: 14,
+				          center: uluru,
+				          mapTypeId: 'satellite',
+				        });
+				        var marker = new google.maps.Marker({
+				          position: uluru,
+				          map: map
+				        });
+				      }
+				    </script>
+				    <script async defer
+				    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHtCsu3pEG44ZxLM8XfHJmkVbwS2UQkGw&callback=initMap">
+				    </script>
+				  </body>
+				</html>
+		{% endfor %}
+	</ul>
+{% endblock %}
