@@ -67,5 +67,5 @@ def wiki(año=None):
 			return render_template('wiki.html',año=año,resultados=standings)
 
 if __name__ == '__main__':
-	port=8080
+	port=os.environ["PORT"]
 	app.run('0.0.0.0',int(port), debug=True)
