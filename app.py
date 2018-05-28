@@ -1,5 +1,4 @@
 from flask import Flask, url_for, render_template, request, abort
-from lxml import etree
 import os
 import requests
 import json
